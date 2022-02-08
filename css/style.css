@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bfbfbf;
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  padding-left: 35px;
+}
+
+.search-adress {
+  height: 40px;
+  flex: 0.8;
+  background-image: url(../img/home.svg);
+}
+
+.search-food {
+  background-image: url(../img/search.svg);
+  width: 300px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.tocomein,
+.basket {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.tocomein {
+  background: #1890ff;
+  border-radius: 2px;
+  border: 1px solid #1890ff;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.basket {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.userlogo {
+  margin-right: 6px;
+}
+
+.basketlogo {
+  margin-right: 6px;
+}
+
+.banner {
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+  padding: 40px 70px;
+  background: #fff1b8 url(../img/banner.png) no-repeat right;
+}
+
+.headsabanner {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 46px;
+
+  color: #302c34;
+}
+
+.textbanner {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #302c34;
+}
+
+.maintext {
+  max-width: 530px;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  margin-bottom: 44px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.restaurants {
+  margin-top: 56px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  margin-bottom: 30px;
+  flex-basis: 31%;
+}
+
+.card-image {
+  background-position: center;
+  height: 250px;
+  width: 384px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 20px 35px 23px 23px;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #000000;
+}
+
+.card-tag {
+  color: #ffffff;
+  background: #262626;
+  border-radius: 2px;
+  padding: 1px 8px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  margin-right: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffc107;
+}
+
+.price {
+  margin-right: 10px;
+}
+
+.price:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #8c8c8c;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.price,
+.category {
+  font-size: 18px;
+  line-height: 32px;
+  color: #8c8c8c;
+}
+
+.category {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.main {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 245, 245, 0) 1.04%,
+    #f5f5f5 100%
+  );
+}
+
+.footer {
+  padding: 60px 0px;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-nav {
+  margin-left: 35px;
+  margin-right: auto;
+}
+
+.footer-link {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #595959;
+}
+
+.footer-link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.social-block {
+  display: flex;
+  align-items: center;
+}
+
+.social-link:not(:last-child) {
+  margin-right: 21px;
+}

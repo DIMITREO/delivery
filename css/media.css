@@ -1,0 +1,64 @@
+@media (max-width: 1366px) {
+  .container {
+    max-width: 960px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 978px) {
+  .headsabanner {
+    font-size: 30px;
+  }
+
+  .textbanner {
+    font-size: 20px;
+  }
+  .banner {
+    padding: 30px 60px;
+    background-size: 600px;
+    background-position: 120% 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner {
+    background-position: 140% 100%;
+  
+      padding: 15px 40px;
+  }
+
+  @media (max-width: 668px) {
+    .banner{
+      padding:5px 40px;
+      background-size: 600px
+    }
+    .maintext{
+      margin: 0;
+      width: 230px;
+    }
+    .headsabanner {
+      font-size: 22px;
+  }
+  .textbanner {
+    font-size: 18px;
+}
+
+
+@media (max-width: 588px) {
+  .banner {
+    background-position: -150% 100%;
+
+  }
+  .buttons{
+    padding-left: 10px;
+  }
+
+
+
